@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Behymer Tech</title>
+    <link>http://behymertech.com/</link>
+    <description>Recent content on Behymer Tech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 23 Jul 2021 20:20:16 -0400</lastBuildDate>
+    
+	<atom:link href="http://behymertech.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://behymertech.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://behymertech.com/about/</guid>
+      <description>Intro: I am Joe Behymer. I have been in the technology industry in many different roles since 2007. I have noticed that it is getting more and more difficult to find reliable, local support without spending thousands of dollars just to get someone onsite. I started Behymer Tech as a way to be your first stop on your search for technology support.
+Certifications:  CompTIA A+, Network+, Security+, and Project+ cetifications ITIL V3 project management certification Certified Ethical Hacker  Major projects and experience:  Full network design and overhaul Wireless network site survey, planning, and integration Windows and Linux server environments Virtualization - Vmware Hyper-V Cloud Technologies  Services Sercurity </description>
+    </item>
+    
+    <item>
+      <title>Welcome</title>
+      <link>http://behymertech.com/posts/welcome/</link>
+      <pubDate>Fri, 23 Jul 2021 20:20:16 -0400</pubDate>
+      
+      <guid>http://behymertech.com/posts/welcome/</guid>
+      <description>Hello and welcome! This is the new homepage of Joe Behymer and Behymer Tech</description>
+    </item>
+    
+    <item>
+      <title>Port Song Part 1</title>
+      <link>http://behymertech.com/posts/port-song-part-1/</link>
+      <pubDate>Wed, 28 Feb 2018 12:00:00 +0000</pubDate>
+      
+      <guid>http://behymertech.com/posts/port-song-part-1/</guid>
+      <description>Part 1 of my original Port Songs to help you memorize common ports used in CompTIA Network+, Security+, and other exams!
+  </description>
+    </item>
+    
+  </channel>
+</rss>
