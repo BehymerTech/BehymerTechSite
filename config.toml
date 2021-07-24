@@ -1,0 +1,98 @@
+baseurl      = "http://behymertech.com/"
+title        = "Behymer Tech"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+paginate     = 10
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "Your technology guide in Dayton, OH"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+
+  # Metadata mostly used in document's head
+  description = "Homepage of Joe Behymer, Behymer Tech"
+  keywords = "homepage, blog, technology, tech support, computers"
+  images = []
+
+[author]
+  name = "Joe Behymer"
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Behymer Tech"
+    subtitle = "Dayton, OH Technology Support"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+
+  # Colors for favicons
+  #
+
+  [params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
+
+  [params.logo]
+    logoMark     = "#"
+    logoText     = "/home/BehymerTech"
+    logoHomeLink = "/"
+    # Set true to remove the logo cursor entirely.
+    # logoCursorDisabled = false
+    # Set to a valid CSS color to change the cursor in the logo.
+    # logoCursorColor    = "#67a2c9"
+    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+    # logoCursorAnimate  = "2s"
+
+
+
+  # Uncomment this if you want a portrait on your start page
+  #
+  [params.portrait]
+     path     = "/images/mobilework.jpg"
+  #   alt      = "Portrait"
+  #   maxWidth = "50px"
+
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/thebeehammer"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:Joe@BehymerTech.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/behymertech"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/joe-behymer-tech/"
+
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "content/about"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Blog"
+    url        = "posts/"
