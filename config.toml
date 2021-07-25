@@ -86,13 +86,25 @@ paginate     = 10
     name = "linkedin"
     url  = "https://www.linkedin.com/in/joe-behymer-tech/"
 
+  [[params.social]]
+    name = "youtube"
+    url  = "http://music.behymertech.com"
+   
+  
+
 
 [menu]
   [[menu.main]]
     identifier = "about"
     name       = "About"
-    url        = "content/about"
+    url        = "about/index.html"
+  [[menu.main]]
+    identifier = "contact"
+    name       = "Contact"
+    url        = "contact/index.html"
+
   [[menu.main]]
     identifier = "posts"
     name       = "Blog"
     url        = "posts/"
+  

@@ -15,9 +15,29 @@
             <pubDate>Fri, 23 Jul 2021 20:20:16 -0400</pubDate>
             
             <guid>http://behymertech.com/posts/welcome/</guid>
-            <description>Hello and welcome! This is the new homepage of Joe Behymer and Behymer Tech</description>
+            <description>Hello and welcome! This is the new homepage of Joe Behymer and Behymer Tech I will be documenting the workflow for updating this site and the technologies used.
+I hope to expand this blog with more information, technical write-ups, and more geek music!</description>
             <content type="html"><![CDATA[<p>Hello and welcome!
-This is the new homepage of Joe Behymer and Behymer Tech</p>
+This is the new homepage of Joe Behymer and Behymer Tech
+I will be documenting the workflow for updating this site and the technologies used.</p>
+<p>I hope to expand this blog with more information, technical write-ups, and more geek music!</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Port Song Part 2</title>
+            <link>http://behymertech.com/posts/port-song-part-2/</link>
+            <pubDate>Mon, 05 Mar 2018 12:00:00 -0400</pubDate>
+            
+            <guid>http://behymertech.com/posts/port-song-part-2/</guid>
+            <description>Part 1 of my original Port Songs to help you memorize common ports used in CompTIA Network+, Security+, and other exams!
+  </description>
+            <content type="html"><![CDATA[<p>Part 1 of my original Port Songs to help you memorize common ports used in CompTIA Network+, Security+, and other exams!</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/GEENcM0sQps" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
 ]]></content>
         </item>
         

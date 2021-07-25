@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 23 Jul 2021 20:20:16 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 24 Jul 2021 22:36:49 -0400</lastBuildDate>
     
 	<atom:link href="http://behymertech.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,8 +18,28 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://behymertech.com/about/</guid>
-      <description>Intro: I am Joe Behymer. I have been in the technology industry in many different roles since 2007. I have noticed that it is getting more and more difficult to find reliable, local support without spending thousands of dollars just to get someone onsite. I started Behymer Tech as a way to be your first stop on your search for technology support.
-Certifications:  CompTIA A+, Network+, Security+, and Project+ cetifications ITIL V3 project management certification Certified Ethical Hacker  Major projects and experience:  Full network design and overhaul Wireless network site survey, planning, and integration Windows and Linux server environments Virtualization - Vmware Hyper-V Cloud Technologies  Services Sercurity </description>
+      <description>Introduction: I am Joe Behymer. I have been in the technology industry in many different roles since 2007. I have been a technican, a systems administrator, and even spent 4 years teaching networking to high school students.
+I have noticed that it is getting more and more difficult to find reliable, local support without spending thousands of dollars just to get someone onsite. I started Behymer Tech as a way to be your first stop on your search for technology support.</description>
+    </item>
+    
+    <item>
+      <title>Thankyou</title>
+      <link>http://behymertech.com/thankyou/</link>
+      <pubDate>Sat, 24 Jul 2021 22:36:49 -0400</pubDate>
+      
+      <guid>http://behymertech.com/thankyou/</guid>
+      <description>Thank you for your submission! I will do my best to get back to you as soon as possible!</description>
+    </item>
+    
+    <item>
+      <title>Contact Behymer Tech</title>
+      <link>http://behymertech.com/contact/</link>
+      <pubDate>Sat, 24 Jul 2021 22:27:09 -0400</pubDate>
+      
+      <guid>http://behymertech.com/contact/</guid>
+      <description>Please feel free to reach out to me. If you have an emergency, you are welcome to call or text me on my cell phone at 513-850-4725. Please be aware that this is not my main job and I will not answer if I am currently working. Expect a call back after 4:30pm. If your question or problem is not urgent, please email using the form below.
+Current rates:
+ $80/hour Onsite work requires a minimum of 2 hours.</description>
     </item>
     
     <item>
@@ -28,7 +48,18 @@ Certifications:  CompTIA A+, Network+, Security+, and Project+ cetifications ITI
       <pubDate>Fri, 23 Jul 2021 20:20:16 -0400</pubDate>
       
       <guid>http://behymertech.com/posts/welcome/</guid>
-      <description>Hello and welcome! This is the new homepage of Joe Behymer and Behymer Tech</description>
+      <description>Hello and welcome! This is the new homepage of Joe Behymer and Behymer Tech I will be documenting the workflow for updating this site and the technologies used.
+I hope to expand this blog with more information, technical write-ups, and more geek music!</description>
+    </item>
+    
+    <item>
+      <title>Port Song Part 2</title>
+      <link>http://behymertech.com/posts/port-song-part-2/</link>
+      <pubDate>Mon, 05 Mar 2018 12:00:00 -0400</pubDate>
+      
+      <guid>http://behymertech.com/posts/port-song-part-2/</guid>
+      <description>Part 1 of my original Port Songs to help you memorize common ports used in CompTIA Network+, Security+, and other exams!
+  </description>
     </item>
     
     <item>
