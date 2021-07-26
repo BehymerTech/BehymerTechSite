@@ -23,12 +23,10 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
         # eg. replace with secret ${{ secrets.FTP_URI }}/page
-        ftp-server: ${{ secrets.FTP_IPADDRESS }}
-        ftp-username: ${{ secrets.FTP_USERNAME }}
-        ftp-password: ${{ secrets.FTP_PASSWORD }}
+        server: ${{ secrets.FTP_IPADDRESS }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
         port: 2222
+        protocol: sftp
         local-dir: public
         # ignore self-signed certificates
-        git-ftp-args: --insecure
-        forceSsl: true
-
