@@ -15,7 +15,6 @@ jobs:
       with:
         # Hugo parameters like --buildDrafts, --baseURL, etc.
         # see https://gohugo.io/getting-started/usage/
-        args: --minify
     - name: List files for debugging
       # For debugging list files from current directory to console
       run: ls
