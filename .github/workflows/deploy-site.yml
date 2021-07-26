@@ -1,0 +1,31 @@
+name: Build and Publish Hugo Site 
+on:
+  push:
+    branches: 
+      - master
+jobs:
+  build:
+    name: Publish Hugo Site (MASTER)
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Source (GIT)
+      uses: actions/checkout@v2
+    - name: Hugo Build
+      uses: lowply/build-hugo@latest
+      with:
+        # Hugo parameters like --buildDrafts, --baseURL, etc.
+        # see https://gohugo.io/getting-started/usage/
+        args: --minify
+    - name: List files for debugging
+      # For debugging list files from current directory to console
+      run: ls
+    - name: Upload Generated Site (SFTP)
+      uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      with:
+        # eg. replace with secret ${{ secrets.FTP_URI }}/page
+        ftp-server: sftp://66.96.147.103:2222/
+        ftp-username: ${{ secrets.FTP_USERNAME }}
+        ftp-password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: public
+        # ignore self-signed certificates
+        git-ftp-args: --insecure
