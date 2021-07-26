@@ -11,7 +11,7 @@ jobs:
     - name: Checkout Source (GIT)
       uses: actions/checkout@v2
     - name: Hugo Build
-      uses: lowply/build-hugo@latest
+      uses: lowply/build-hugo@v0.68.3
       with:
         # Hugo parameters like --buildDrafts, --baseURL, etc.
         # see https://gohugo.io/getting-started/usage/
