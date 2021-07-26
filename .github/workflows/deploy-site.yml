@@ -26,7 +26,6 @@ jobs:
         server: ${{ secrets.FTP_IPADDRESS }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        port: 2222
         protocol: ftp
         local-dir: public/
         # ignore self-signed certificates
