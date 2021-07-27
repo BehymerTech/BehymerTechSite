@@ -1,0 +1,62 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Behymer Tech</title>
+        <link>http://behymertech.com/posts/</link>
+        <description>Recent content in Posts on Behymer Tech</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Fri, 23 Jul 2021 20:20:16 -0400</lastBuildDate>
+        <atom:link href="http://behymertech.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Welcome</title>
+            <link>http://behymertech.com/posts/welcome/</link>
+            <pubDate>Fri, 23 Jul 2021 20:20:16 -0400</pubDate>
+            
+            <guid>http://behymertech.com/posts/welcome/</guid>
+            <description>Hello and welcome! This is the new homepage of Joe Behymer and Behymer Tech I will be documenting the workflow for updating this site and the technologies used.
+I hope to expand this blog with more information, technical write-ups, and more geek music!</description>
+            <content type="html"><![CDATA[<p>Hello and welcome!
+This is the new homepage of Joe Behymer and Behymer Tech
+I will be documenting the workflow for updating this site and the technologies used.</p>
+<p>I hope to expand this blog with more information, technical write-ups, and more geek music!</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Port Song Part 2</title>
+            <link>http://behymertech.com/posts/port-song-part-2/</link>
+            <pubDate>Mon, 05 Mar 2018 12:00:00 -0400</pubDate>
+            
+            <guid>http://behymertech.com/posts/port-song-part-2/</guid>
+            <description>Part 1 of my original Port Songs to help you memorize common ports used in CompTIA Network+, Security+, and other exams!
+  </description>
+            <content type="html"><![CDATA[<p>Part 1 of my original Port Songs to help you memorize common ports used in CompTIA Network+, Security+, and other exams!</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/GEENcM0sQps" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+]]></content>
+        </item>
+        
+        <item>
+            <title>Port Song Part 1</title>
+            <link>http://behymertech.com/posts/port-song-part-1/</link>
+            <pubDate>Wed, 28 Feb 2018 12:00:00 +0000</pubDate>
+            
+            <guid>http://behymertech.com/posts/port-song-part-1/</guid>
+            <description>Part 1 of my original Port Songs to help you memorize common ports used in CompTIA Network+, Security+, and other exams!
+  </description>
+            <content type="html"><![CDATA[<p>Part 1 of my original Port Songs to help you memorize common ports used in CompTIA Network+, Security+, and other exams!</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/9zVuB4NrR4w" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
