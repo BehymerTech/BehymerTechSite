@@ -11,18 +11,20 @@ jobs:
     - name: Checkout Source (GIT)
       uses: actions/checkout@v2
     - name: Hugo Build
-      uses: lowply/build-hugo@v0.68.3
-        # Hugo parameters like --buildDrafts, --baseURL, etc.
-        # see https://gohugo.io/getting-started/usage/
+      uses: lowply/build-hugo@v0.68.3      
+      with:
+        args: --minify
     - name: List files for debugging
       # For debugging list files from current directory to console
-      run: ls
+      run: ls -la && ls -la ./* && sudo chmod a+w ./public/ -R
     - name: Upload Generated Site (SFTP)
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
-        # eg. replace with secret ${{ secrets.FTP_URI }}/page
-        server: ${{ secrets.FTP_ADDRESS }}
+        server: behymertech.com
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         protocol: ftp
-        local-dir: public/
+        local-dir: ./public/
+        security:	loose
+        dangerous-clean-slate: true
+        state-name: deploy-sync-status.json
