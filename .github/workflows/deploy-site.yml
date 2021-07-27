@@ -16,8 +16,7 @@ jobs:
         args: --minify
     - name: List files for debugging
       # For debugging list files from current directory to console
-      run: ls -la
-      run: tree
+      run: ls -la && ls -la ./*
     - name: Upload Generated Site (SFTP)
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
