@@ -23,7 +23,7 @@ jobs:
         server: behymertech.com
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        protocol: ftps
+        protocol: ftp
         local-dir: ./public/
         security:	loose
         dangerous-clean-slate: true
