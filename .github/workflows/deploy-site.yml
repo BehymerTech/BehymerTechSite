@@ -21,9 +21,11 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
         # eg. replace with secret ${{ secrets.FTP_URI }}/page
-        server: ftp://behymertech.com
+        server: behymertech.com
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        protocol: ftp
-        local-dir: public/
-        server-dir: ./
+        protocol: ftps
+        local-dir: ./public/
+        security:	loose
+        dangerous-clean-slate: true
+        state-name: deploy-sync-status.json
