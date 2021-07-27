@@ -69,7 +69,7 @@ defaultTheme = "dark"
   [params.portrait]
      path     = "/images/colorpop.jpg"
   #   alt      = "Portrait"
-     maxWidth = 150px
+  #   maxWidth = "50px"
 
   # Social icons
   [[params.social]]
