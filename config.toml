@@ -3,6 +3,8 @@ title        = "Behymer Tech"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
+defaultTheme = "dark"
+
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -11,7 +13,7 @@ paginate     = 10
   dateformNumTime = "2006-01-02 15:04"
 
   # Subtitle for home
-  homeSubtitle = "Your technology guide in Dayton, OH"
+  homeSubtitle = "Your technology resource in Dayton, OH"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -65,7 +67,7 @@ paginate     = 10
   # Uncomment this if you want a portrait on your start page
   #
   [params.portrait]
-     path     = "/images/mobilework.jpg"
+     path     = "/images/colorpop.jpg"
   #   alt      = "Portrait"
   #   maxWidth = "50px"
 
