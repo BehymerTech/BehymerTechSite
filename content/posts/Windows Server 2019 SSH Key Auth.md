@@ -7,7 +7,7 @@ draft: false
 ## Introduction:
 The OpenSSH server Microsoft has added for Windows Server 2019 has come a long way since its inception. The last time I tried the service, I had a lot of problems using key-based authentication. I was complaining about this online and @CyborgEvilham  envouraged me to give it another shot.
 
-{{ < tweet 1430481859646038019 >}}
+{{ < tweet 1430481859646038019 > }}
 
 After playing around with it for a few minutes this morning, I was able to successfully use SSH key authentication from my WSL Ubuntu instance back to my primary desktop without issue. There are a few additional steps and I do not think the instructions are very clear so I am trying to combine instructions from a couple of sources here. One of the big things that I missed was that you have to set the ACL 
 
