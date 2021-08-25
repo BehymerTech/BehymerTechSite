@@ -19,6 +19,9 @@ disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
 
+# Enable syntax highlighting in code blocks:
+pygmentsCodefences = true
+pygmentsStyle = "monokai"
 
 [params]
   dateform        = "Jan 2, 2006"
