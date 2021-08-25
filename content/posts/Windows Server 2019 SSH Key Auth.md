@@ -1,7 +1,9 @@
 ---
-menu: "main"
-weight: 50
+title: "OpenSSH server in Windows Server 2019"
+date: 2021-08-25T12:00:00-04:00
+draft: false
 ---
+
 ## Introduction:
 The OpenSSH server Microsoft has added for Windows Server 2019 has come a long way since its inception. The last time I tried the service, I had a lot of problems using key-based authentication. I was complaining about this online and @CyborgEvilham  envouraged me to give it another shot.
 

@@ -1,7 +1,9 @@
 ---
-menu: "main"
-weight: 50
+title: "About"
+date: 2021-08-25T12:00:00-04:00
+draft: false
 ---
+
 ## Introduction:
 I'm Joe Behymer. I have been in the technology industry in many different roles since 2006. I have been a technican, a systems administrator, and even spent 4 years teaching high school IT.  
 
