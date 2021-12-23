@@ -88,7 +88,7 @@ pygmentsStyle = "monokai"
   # Uncomment this if you want a portrait on your start page
   #
   [params.portrait]
-     path     = "/images/portrait.jpg"
+     path     = "/images/portrait.png"
   #   alt      = "Portrait"
      maxWidth = "500px"
 
