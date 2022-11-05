@@ -102,6 +102,10 @@ pygmentsStyle = "monokai"
     url  = "mailto:Joe@BehymerTech.com"
 
   [[params.social]]
+    name = "mastodon"
+    url  = "@thebeehammer@infosec.exchange"
+
+  [[params.social]]
     name = "github"
     url  = "https://github.com/behymertech"
 

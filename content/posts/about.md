@@ -30,14 +30,7 @@ I have noticed that it is getting more and more difficult to find reliable, loca
 - Point of sale and other line of business application support
 - Documentation and training
 
-## Services
-- Computer and device repair 
-- Equipment purchasing guidance
-- Network design, installation, and troubleshooting
-- Wireless network configuration
-- Customized training
-- Basic security assessments and planning
-
 ## Sercurity
 - Security auditing
 - Policy consultation and training
+- Building red and blue team cyber security labs
