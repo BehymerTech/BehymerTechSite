@@ -57,9 +57,9 @@ pygmentsStyle = "monokai"
 
 [languages]
   [languages.en]
-    title = "Behymer Tech"
-    subtitle = "Dayton, OH Technology Support"
-    keywords = "Tech support, technology, security, computers, phones"
+    title = "Joe Behymer"
+    subtitle = "Information Security Engineer"
+    keywords = "InfoSec, Security, Technology"
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
 
@@ -103,7 +103,7 @@ pygmentsStyle = "monokai"
 
   [[params.social]]
     name = "mastodon"
-    url  = "@thebeehammer@infosec.exchange"
+    url  = "https://infosec.exchange/web/@thebeehammer"
 
   [[params.social]]
     name = "github"
