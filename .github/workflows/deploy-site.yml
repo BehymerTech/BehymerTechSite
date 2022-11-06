@@ -18,7 +18,7 @@ jobs:
       # For debugging list files from current directory to console
       run: ls -la && ls -la ./* && sudo chmod a+w ./public/ -R
     - name: Upload Generated Site (SFTP)
-      uses: SamKirkland/FTP-Deploy-Action # @4.1.0
+      uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
         server: behymertech.com
         username: ${{ secrets.FTP_USERNAME }}
