@@ -30,7 +30,7 @@ pygmentsStyle = "monokai"
   dateformNumTime = "2006-01-02 15:04"
 
   # Subtitle for home
-  homeSubtitle = "Your technology resource in Dayton, OH"
+  homeSubtitle = "Random ramblings"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -43,8 +43,8 @@ pygmentsStyle = "monokai"
 
 
   # Metadata mostly used in document's head
-  description = "Homepage of Joe Behymer, Behymer Tech"
-  keywords = "homepage, blog, technology, tech support, computers"
+  description = "Joe Behymer's personal site"
+  keywords = "homepage, blog, technology, security"
   images = []
 
 [author]
@@ -94,10 +94,6 @@ pygmentsStyle = "monokai"
 
   # Social icons
   [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/thebeehammer"
-
-  [[params.social]]
     name = "email"
     url  = "mailto:Joe@BehymerTech.com"
 
@@ -124,10 +120,6 @@ pygmentsStyle = "monokai"
     identifier = "about"
     name       = "About"
     url        = "about/index.html"
-  [[menu.main]]
-    identifier = "contact"
-    name       = "Contact"
-    url        = "contact/index.html"
 
   [[menu.main]]
     identifier = "posts"
